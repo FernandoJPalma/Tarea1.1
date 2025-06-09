@@ -31,5 +31,5 @@ void main() {
   double promedio = calcularSalarioPromedio(empleados);
 
   print('\nSalario total: \Lps ${total}');
-  print('Salario promedio: \Lps ${promedio}');
+  print('Salario promedio: \Lps ${promedio.toStringAsFixed(2)}');
 }
